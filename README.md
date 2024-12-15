@@ -31,7 +31,7 @@ Get detailed schema information for a specific table.
 Clone the repository:
 
 ```bash
-git clone https://github.com/rooveterinary/sqlite-explorer-fastmcp-mcp-server.git
+git clone https://github.com/hannesrudolph/sqlite-explorer-fastmcp-mcp-server.git
 cd sqlite-explorer-fastmcp-mcp-server
 ```
 
