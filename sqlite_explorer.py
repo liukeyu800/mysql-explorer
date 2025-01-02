@@ -5,7 +5,8 @@ from typing import List, Dict, Any, Optional
 from fastmcp import FastMCP
 
 # Initialize FastMCP server
-mcp = FastMCP("SQLite Explorer")
+mcp = FastMCP("SQLite Explorer",
+    log_level="CRITICAL")
 
 # Path to Messages database - must be provided via SQLITE_DB_PATH environment variable
 if 'SQLITE_DB_PATH' not in os.environ:

@@ -93,6 +93,8 @@ To use this server with the [Cline VSCode plugin](http://cline.bot):
       "run",
       "--with",
       "fastmcp",
+      "--with",
+      "uvicorn",
       "fastmcp",
       "run",
       "/path/to/repo/sqlite_explorer.py"
