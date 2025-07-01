@@ -1,0 +1,17 @@
+{
+  "metadata": {
+    "timestamp": "2025-06-05T18:19:51.360336",
+    "query": "SELECT CONCAT(YEAR(record_time), '-', LPAD(MONTH(record_time), 2, '0')) AS month, available_oxidation AS oxidation, available_fuel AS fuel, available_total AS total FROM thruster_twocomponent WHERE aircraft_id = 4 ORDER BY record_time LIMIT 1000",
+    "params": [],
+    "row_count": 1,
+    "filename": "query_20250605_181951_SELECT_CONCATYEARrecord_time_-_LPADMONTHr.json"
+  },
+  "data": [
+    {
+      "month": "2024-08",
+      "oxidation": 118.5,
+      "fuel": 93.6,
+      "total": 212.1
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "timestamp": "2025-06-05T18:16:25.642173",
+    "query": "SELECT incident_type, COUNT(*) AS count, ROUND(COUNT(*) * 100.0 / (SELECT COUNT(*) FROM incident_on_orbit), 2) AS percentage FROM incident_on_orbit WHERE incident_type IN ('在轨异常', '在轨故障', '正常操作') GROUP BY incident_type LIMIT 1000",
+    "params": [],
+    "row_count": 3,
+    "filename": "query_20250605_181625_SELECT_incident_type_COUNT_AS_count_ROUNDCOU.json"
+  },
+  "data": [
+    {
+      "incident_type": "在轨异常",
+      "count": 6,
+      "percentage": "46.15"
+    },
+    {
+      "incident_type": "在轨故障",
+      "count": 4,
+      "percentage": "30.77"
+    },
+    {
+      "incident_type": "正常操作",
+      "count": 2,
+      "percentage": "15.38"
+    }
+  ]
+}

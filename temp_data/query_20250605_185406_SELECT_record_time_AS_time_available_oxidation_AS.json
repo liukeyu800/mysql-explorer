@@ -1,0 +1,83 @@
+{
+  "metadata": {
+    "timestamp": "2025-06-05T18:54:06.746855",
+    "query": "SELECT record_time AS time, available_oxidation AS oxidizer, available_fuel AS fuel, available_total AS total FROM thruster_twocomponent WHERE aircraft_id = 4 ORDER BY record_time LIMIT 1000",
+    "params": [],
+    "row_count": 12,
+    "filename": "query_20250605_185406_SELECT_record_time_AS_time_available_oxidation_AS.json"
+  },
+  "data": [
+    {
+      "time": "2024-01-31 00:00:00",
+      "oxidizer": 120.5,
+      "fuel": 85.3,
+      "total": 205.8
+    },
+    {
+      "time": "2024-02-29 00:00:00",
+      "oxidizer": 110.5,
+      "fuel": 77.3,
+      "total": 187.8
+    },
+    {
+      "time": "2024-03-31 00:00:00",
+      "oxidizer": 105.5,
+      "fuel": 74.3,
+      "total": 179.8
+    },
+    {
+      "time": "2024-04-30 00:00:00",
+      "oxidizer": 97.5,
+      "fuel": 69.3,
+      "total": 166.8
+    },
+    {
+      "time": "2024-05-31 00:00:00",
+      "oxidizer": 91.5,
+      "fuel": 65.3,
+      "total": 156.8
+    },
+    {
+      "time": "2024-06-30 00:00:00",
+      "oxidizer": 84.5,
+      "fuel": 62.3,
+      "total": 146.8
+    },
+    {
+      "time": "2024-07-31 00:00:00",
+      "oxidizer": 78.0,
+      "fuel": 58.3,
+      "total": 136.3
+    },
+    {
+      "time": "2024-08-31 00:00:00",
+      "oxidizer": 72.0,
+      "fuel": 54.3,
+      "total": 126.3
+    },
+    {
+      "time": "2024-09-30 00:00:00",
+      "oxidizer": 67.0,
+      "fuel": 51.3,
+      "total": 118.3
+    },
+    {
+      "time": "2024-10-31 00:00:00",
+      "oxidizer": 61.5,
+      "fuel": 47.8,
+      "total": 109.3
+    },
+    {
+      "time": "2024-11-30 00:00:00",
+      "oxidizer": 55.5,
+      "fuel": 43.8,
+      "total": 99.3
+    },
+    {
+      "time": "2024-12-31 00:00:00",
+      "oxidizer": 50.0,
+      "fuel": 40.0,
+      "total": 90.0
+    }
+  ]
+}

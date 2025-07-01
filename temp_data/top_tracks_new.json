@@ -1,0 +1,51 @@
+{
+  "metadata": {
+    "timestamp": "2025-06-03T16:21:14.202148",
+    "query": "SELECT Name, CONCAT(ROUND(Milliseconds/60000, 2), ' minutes') AS Duration \n                   FROM track \n                   WHERE Name REGEXP '^[a-zA-Z0-9 ]+$' \n                   ORDER BY Milliseconds DESC \n                   LIMIT 10",
+    "params": [],
+    "row_count": 10,
+    "filename": "top_tracks_new.json"
+  },
+  "data": [
+    {
+      "Name": "Through a Looking Glass",
+      "Duration": "84.81 minutes"
+    },
+    {
+      "Name": "Dave",
+      "Duration": "47.09 minutes"
+    },
+    {
+      "Name": "Maternity Leave",
+      "Duration": "46.34 minutes"
+    },
+    {
+      "Name": "Three Minutes",
+      "Duration": "46.06 minutes"
+    },
+    {
+      "Name": "Hero",
+      "Duration": "45.23 minutes"
+    },
+    {
+      "Name": "One of Them",
+      "Duration": "44.98 minutes"
+    },
+    {
+      "Name": "How to Stop an Exploding Man",
+      "Duration": "44.79 minutes"
+    },
+    {
+      "Name": "The Long Con",
+      "Duration": "44.66 minutes"
+    },
+    {
+      "Name": "One of Us",
+      "Duration": "43.97 minutes"
+    },
+    {
+      "Name": "The Man from Tallahassee",
+      "Duration": "43.96 minutes"
+    }
+  ]
+}

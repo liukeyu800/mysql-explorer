@@ -162,3 +162,7 @@ def describe_table(table_name: str) -> List[Dict[str, str]]:
             
         except sqlite3.Error as e:
             raise ValueError(f"SQLite error: {str(e)}")
+        
+
+if __name__ == "__main__":
+    mcp.run(transport="stdio")

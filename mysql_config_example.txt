@@ -1,0 +1,23 @@
+# MySQL Connection Configuration
+# Set these environment variables before running the MySQL Explorer
+
+# Required settings
+export MYSQL_USER=your_username
+export MYSQL_PASSWORD=your_password
+export MYSQL_DATABASE=your_database
+
+# Optional settings (with defaults)
+export MYSQL_HOST=127.0.0.1
+export MYSQL_PORT=3306
+
+# Example for a typical local development setup:
+# export MYSQL_USER=root
+# export MYSQL_PASSWORD=123456
+# export MYSQL_DATABASE=chinook
+# export MYSQL_HOST=localhost
+# export MYSQL_PORT=3306
+
+# For Windows PowerShell, use:
+# $env:MYSQL_USER="your_username"
+# $env:MYSQL_PASSWORD="your_password"
+# $env:MYSQL_DATABASE="your_database" 

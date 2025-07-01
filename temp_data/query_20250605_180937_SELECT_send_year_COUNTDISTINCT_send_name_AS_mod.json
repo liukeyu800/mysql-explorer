@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "timestamp": "2025-06-05T18:09:37.646718",
+    "query": "SELECT send_year, COUNT(DISTINCT send_name) AS model_count, SUM(send_count) AS total_spacecraft FROM aircraft_sending WHERE send_year BETWEEN 2023 AND 2025 GROUP BY send_year ORDER BY send_year LIMIT 1000",
+    "params": [],
+    "row_count": 2,
+    "filename": "query_20250605_180937_SELECT_send_year_COUNTDISTINCT_send_name_AS_mod.json"
+  },
+  "data": [
+    {
+      "send_year": 2024,
+      "model_count": 8,
+      "total_spacecraft": "13"
+    },
+    {
+      "send_year": 2025,
+      "model_count": 9,
+      "total_spacecraft": "11"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "metadata": {
+    "timestamp": "2025-06-05T18:37:13.271475",
+    "query": "SELECT record_time AS timestamp, residual_propulsion AS oxidizer_remaining, residual_fuel AS fuel_remaining, residual_total AS total FROM thruster_twocomponent WHERE aircraft_id = 4 ORDER BY record_time LIMIT 1000",
+    "params": [],
+    "row_count": 12,
+    "filename": "query_20250605_183713_SELECT_record_time_AS_timestamp_residual_propulsi.json"
+  },
+  "data": [
+    {
+      "timestamp": "2024-01-31 00:00:00",
+      "oxidizer_remaining": 120.5,
+      "fuel_remaining": 85.3,
+      "total": 205.8
+    },
+    {
+      "timestamp": "2024-02-29 00:00:00",
+      "oxidizer_remaining": 110.5,
+      "fuel_remaining": 77.3,
+      "total": 187.8
+    },
+    {
+      "timestamp": "2024-03-31 00:00:00",
+      "oxidizer_remaining": 105.5,
+      "fuel_remaining": 74.3,
+      "total": 179.8
+    },
+    {
+      "timestamp": "2024-04-30 00:00:00",
+      "oxidizer_remaining": 97.5,
+      "fuel_remaining": 69.3,
+      "total": 166.8
+    },
+    {
+      "timestamp": "2024-05-31 00:00:00",
+      "oxidizer_remaining": 91.5,
+      "fuel_remaining": 65.3,
+      "total": 156.8
+    },
+    {
+      "timestamp": "2024-06-30 00:00:00",
+      "oxidizer_remaining": 84.5,
+      "fuel_remaining": 62.3,
+      "total": 146.8
+    },
+    {
+      "timestamp": "2024-07-31 00:00:00",
+      "oxidizer_remaining": 78.0,
+      "fuel_remaining": 58.3,
+      "total": 136.3
+    },
+    {
+      "timestamp": "2024-08-31 00:00:00",
+      "oxidizer_remaining": 72.0,
+      "fuel_remaining": 54.3,
+      "total": 126.3
+    },
+    {
+      "timestamp": "2024-09-30 00:00:00",
+      "oxidizer_remaining": 67.0,
+      "fuel_remaining": 51.3,
+      "total": 118.3
+    },
+    {
+      "timestamp": "2024-10-31 00:00:00",
+      "oxidizer_remaining": 61.5,
+      "fuel_remaining": 47.8,
+      "total": 109.3
+    },
+    {
+      "timestamp": "2024-11-30 00:00:00",
+      "oxidizer_remaining": 55.5,
+      "fuel_remaining": 43.8,
+      "total": 99.3
+    },
+    {
+      "timestamp": "2024-12-31 00:00:00",
+      "oxidizer_remaining": 50.0,
+      "fuel_remaining": 40.0,
+      "total": 90.0
+    }
+  ]
+}
